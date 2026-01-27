@@ -17,5 +17,5 @@ When the user presses the first letter of my name, the window closes.
 
 ## How to Run (Linux)
 ```bash
-make linux
+make
 ```

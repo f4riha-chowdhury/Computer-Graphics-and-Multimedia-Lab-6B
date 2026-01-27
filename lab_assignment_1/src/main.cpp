@@ -2,7 +2,6 @@
 #include <glfw3.h>
 #include <iostream>
 
-// Change these two if needed
 const char* WINDOW_NAME = "Fariha Chowdhury";
 const int CLOSE_KEY = GLFW_KEY_F;
 
@@ -27,11 +26,6 @@ int main()
         std::cerr << "Failed to initialize GLFW\n";
         return -1;
     }
-
-    // OpenGL version
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     // Create window
     GLFWwindow* window = glfwCreateWindow(800, 600, WINDOW_NAME, nullptr, nullptr);
