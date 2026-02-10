@@ -19,3 +19,8 @@ When the user presses the first letter of my name, the window closes.
 ```bash
 make
 ```
+
+## How to Run Lab2
+```bash
+make lab2
+```

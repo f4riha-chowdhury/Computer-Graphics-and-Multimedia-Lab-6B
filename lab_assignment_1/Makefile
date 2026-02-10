@@ -5,3 +5,7 @@ win:
 linux:
 	g++ -fdiagnostics-color=always -I./include ./src/main.cpp ./src/glad.c -o ./build/main -Llib -lglfw -lGL -lXrandr -lX11 -lrt -ldl
 	./build/main
+
+lab2:
+	g++.exe -fdiagnostics-color=always -I./include ./src/lab2.cpp ./src/glad.c -o ./build/lab2.exe -Llib -lglfw3 -lopengl32 -lgdi32
+	./build/lab2.exe
