@@ -2,7 +2,7 @@
 #include <glfw3.h>
 #include <iostream>
 
-const char* WINDOW_NAME = "Fariha Chowdhury";
+const char* WINDOW_NAME = "fariha";
 const int CLOSE_KEY = GLFW_KEY_F;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -52,7 +52,7 @@ int main()
         processInput(window);
 
         // Cyan background
-        glClearColor(0.0f, 1.0f, 1.0f, 1.0f);
+        glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glfwSwapBuffers(window);
