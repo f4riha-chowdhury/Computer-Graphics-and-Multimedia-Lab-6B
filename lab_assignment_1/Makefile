@@ -39,3 +39,6 @@ day_4_dda:
 lab4:
 	g++.exe -fdiagnostics-color=always -I./include ./src/lab4.cpp ./src/glad.c -o ./build/lab4.exe -Llib -lglfw3 -lopengl32 -lgdi32
 	./build/lab4.exe
+lab5:
+	g++.exe -fdiagnostics-color=always -I./include ./src/lab5.cpp ./src/glad.c -o ./build/lab5.exe -Llib -lglfw3 -lopengl32 -lgdi32
+	./build/lab5.exe
